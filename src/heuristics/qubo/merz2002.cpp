@@ -2,7 +2,7 @@
 #include <iostream>
 #include "heuristics/qubo/merz2002.h"
 #include "util/random.h"
-
+#include <limits>
 Merz2002PartialSolution::Merz2002PartialSolution(const QUBOInstance& qi,
 						 QUBOHeuristic *heuristic) :
   QUBOPartialSolution(qi, heuristic) {
